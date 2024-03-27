@@ -1,2 +1,4 @@
 // create web browser
-window.open("https://www.example.com");
+const iframe = document.createElement('iframe');
+iframe.src = 'https://www.example.com';
+document.body.appendChild(iframe);
